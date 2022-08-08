@@ -10,7 +10,7 @@ def hello_flask():
 
 @app.route('/inicio')
 def show_home():
-    return render_template('index.html')
+    return 'Hello Word'
 
 #@app.route('/url_variables/<string:name>/<int:age>')
 #def url_variables(name,age):
